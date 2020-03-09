@@ -1,0 +1,479 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Utilities*/
+
+[class*="dr-border-"] {
+	border: 1px solid;
+}
+
+.dr-border-white {border-color: white;}
+.dr-border-black {border-color: black;}
+
+.nav-link{
+	font-family: 'Comfortaa', cursive;
+}
+
+.dr-title-underline {
+	width: 20vw;
+	border: #FF6347 2px solid;
+}
+
+/*Section Intro*/
+#intro {
+	
+	height: 100vh;
+	opacity:1;
+	position: relative;
+	color: white;
+	transition: 1s;
+}
+
+.dr-intro-img {
+	background-image: url(../img/plaza_venezuela.jpg);
+  	background-repeat: no-repeat;
+  	background-size: 100% auto;
+  	background-position: center;
+	opacity: 0.1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.dr-intro-content > h1 {
+	font-family: 'Redressed', cursive;
+	font-size: 2em;
+	text-align: center;
+	transition: 4s;
+}
+
+.dr-intro-logo {
+	background-image: url("../img/drbr-logo-light.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 150px;
+	width: 150px;
+	opacity: 0.8;
+	align-items: center;
+	transition: 4s;
+}
+
+/*Section About*/
+#aboutme {
+	transition: 2s;
+
+}
+
+.dr-aboutme {
+	color: black;
+	height: 110vh;
+}
+
+.dr-aboutme-photo {
+
+	background-image: url("../img/dr-david.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+	height: 45vh;
+	width: 25vw;
+	margin-left: 40%;
+}
+
+.dr-aboutme-description {
+
+	width: 100%;
+	margin-right: 40%;
+	font-size: 1.5em;
+}
+
+.dr-aboutme-description-text {
+	display: inline-block;
+	overflow-wrap: break-word;
+	/* word-break: break-all; */
+	padding-top: 10vh;
+	width: 30vw;
+    /* white-space: normal; */
+}
+
+
+/* End Section About me */
+
+
+/*Section Education*/
+#education {
+
+}
+
+.dr-education {
+	/*border: 1px solid black;*/
+	color: black;
+	height: 130vh;
+}
+
+.dr-education-description {
+	height: 100vh;
+}
+
+.dr-education-university-logo {
+	background-image: url("../img/dr-ucab.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+	height: 12vh;
+	width: 30vw;
+
+}
+
+#education h3.dr-university-name {
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+#education p.dr-undergraduate {
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.2em;
+}
+
+#education p.dr-graduate {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.2em;
+}
+
+#education p.dr-undergraduate-description {
+	font-family: 'Viaoda Libre', cursive;
+	font-weight: bold;
+
+}
+
+#education p.dr-graduate-description {
+	font-family: 'Viaoda Libre', cursive;
+	font-weight: bold;
+
+}
+
+#education p.dr-undergraduate-year {
+	font-family: 'Viga', sans-serif;
+}
+
+#education p.dr-graduate-year {
+	font-family: 'Viga', sans-serif;
+}
+
+/* Section Skills */
+
+
+.dr-skills {
+	/*border: 1px solid black;*/
+	color: black;
+	height: 70vh;
+}
+
+.dr-skills-title {
+	height: 20vh;
+}
+
+[class*="dr-skills-card-"] {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.5); */
+}
+.dr-skills-card-1 {	
+	background-image: url("../img/languages/python.png");
+	height: 30vh;
+	width: 15vw;
+}
+.dr-skills-card-2 {	
+	background-image: url("../img/languages/java.png");
+	height: 20vh;
+	width: 15vw;
+}
+
+.dr-skills-card-3 {	
+	background-image: url("../img/languages/csharp.png");
+	height: 20vh;
+	width: 10vw;
+}
+
+.dr-skills-card-4 {	
+	background-image: url("../img/languages/php.png");
+	height: 20vh;
+	width: 10vw;
+}
+
+.dr-skills-card-5 {	
+	background-image: url("../img/languages/html.png");
+	height: 35vh;
+	width: 11vw;
+}
+.dr-skills-card-6 {	
+	background-image: url("../img/languages/css.png");
+	height: 35vh;
+	width: 12vw;
+}
+
+.dr-skills-card-7 {	
+	background-image: url("../img/languages/js.png");
+	height: 35vh;
+	width: 10vw;
+}
+
+.dr-skills-card-8 {	
+	background-image: url("../img/languages/php.png");
+	height: 20vh;
+	width: 10vw;
+}
+
+.dr-carousel-skills-languages {
+	width: 70vw;
+}
+
+.dr-skills-size-1 {
+	height: 25vh;
+}
+
+
+#skills h3.dr-skills-programming {
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+.dr-skills-description {
+	height: 100vh;
+}
+/* End section skills */
+/*Section Project*/
+#project {
+
+}
+
+.dr-project {
+	color: black;
+	height: 100vh;
+}
+
+.dr-project-description {
+	height: 70vh;
+}
+
+#project h3 {
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Section Contact*/
+#contact {
+
+}
+
+.dr-contact {
+	/*border: 1px solid black;*/
+	color: black;
+	height: 90vh;
+}
+
+.dr-contact-description {
+	height: 60vh;
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.dr-contact-description-text {
+	display: inline-block;
+	overflow-wrap: break-word;
+	/* word-break: break-all; */
+	padding-top: 10vh;
+	width: 40vw;
+    /* white-space: normal; */
+}
+
+/*General*/
+
+.navbar {
+	transition: 1s;
+}
+
+.dr-navbar {
+	font-size: 1.5em;
+}
+
+
+
+#navLogo {
+	background-image: url('../img/drbr-logo-light.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100% auto;
+  	display: none;
+}
+
+footer {
+	height: 6vh;
+	font-weight: bold;
+}
+
+/* Color palette */
+.dr-color-background-dark-blue {background-color: rgb(34, 42, 56);}
+.dr-color-background-light-gray-1 {background-color: rgb(217,217,217);}
+.dr-color-background-light-gray-2 {background-color: rgb(196,196,196);}
+.dr-color-background-light-gray-3 {background-color: rgb(242,242,242);}
+.dr-color-background-dark-orange {background-color: #FF4500;}
+.dr-color-background-transparent {background-color: transparent;}
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+	#intro {height: 0vh;}
+	.dr-intro-logo {display: none;}
+	.dr-intro-content > h1 {display: none;}
+
+	/*Navbar section*/
+	#navLogo {display: block;}
+
+	.dr-navbar {background-color: rgb(34, 42, 56);}
+	.dr-nav-logo-size {
+		height: 10vh;
+		width: 16vw;
+	}
+
+	/* dr-about */
+	.dr-aboutme-photo{
+		height: 30vh;
+		width: 40vw;
+		margin-left: 25%;
+	}
+
+}
+
+
+@media (min-width: 768px) {
+	.dr-intro-logo {height: 150px; width: 150px;}
+	.dr-intro-content {font-size: 1em;}
+
+	.dr-nav-logo-size {
+		height: 15vh;
+		width: 4vw;
+	}
+	#mainNavbar {
+		height: 11vh;
+	}
+
+	.dr-aboutme-photo{
+		height: 55vh;
+		width: 20vw;
+		margin-left: 30%;
+	}
+
+	.dr-aboutme-description {
+		height: 55vh;
+		width: 100%;
+		margin-right: 20%;
+		font-size: 1em;
+	}
+
+	.dr-aboutme-description-text {
+		padding-top: 3vh;
+	}
+	/*Navbar section*/
+
+	#dr-carousel-indicators .col-md-12 {
+		
+		width: 100%;
+		max-width: 100%; 
+	}
+	
+}
+
+
+@media (min-width: 992px) {
+	.dr-intro-logo {height: 200px; width: 200px;}
+	.dr-intro-content {font-size: 1.5em;}
+	.dr-nav-logo-size {
+		height: 15vh;
+		width: 4vw;
+	}
+	#mainNavbar {
+		height: 11vh;
+	}
+
+	.dr-aboutme-photo{
+		height: 65vh;
+		width: 30vw;
+		margin-left: 20%;
+	}
+
+	.dr-aboutme-description {
+		height: 65vh;
+		width: 100%;
+		margin-right: 20%;
+		font-size: 1.3em;
+	}
+
+	.dr-aboutme-description-text {
+		padding-top: 5vh;
+	}
+
+	
+}
+
+
+@media (min-width: 1200px) {
+	.dr-intro-logo {height: 250px; width: 250px;}
+	.dr-intro-img {background-position: inherit;}
+	.dr-intro-content {font-size: 2em;}
+	
+	.dr-nav-logo-size {
+		height: 15vh;
+		width: 4vw;
+	}
+	#mainNavbar {
+		height: 11vh;
+	}
+
+	.dr-aboutme-photo{
+		height: 80vh;
+		width: 30vw;
+		margin-left: 25%;
+	}
+
+	.dr-aboutme-description {
+		height: 80vh;
+		width: 100%;
+		margin-right: 20%;
+		font-size: 1.3em;
+	}
+
+	.dr-aboutme-description-text {
+		padding-top: 5vh;
+	}
+	/* skills  */
+	#dr-carousel-indicators .col-lg-3 {
+		float: left;
+		width: 25%;
+		max-width: 100%; 
+	} 
+
+	#dr-carousel-indicators .col-lg-4 {
+		float: left;
+		width: 33.33%;
+		max-width: 100%; 
+	} 
+
+	.dr-card {
+
+	}
+	/* end skills */
+
+
+
+}
